@@ -1,6 +1,11 @@
 public class ZadaniaDomowe {
 
-    public void liczbyPodzielnePrzez3() {
+    public static void main(String[] args) {
+        liczbyPodzielnePrzez3();
+        odwrocenieTablicy();
+    }
+
+    public static void liczbyPodzielnePrzez3() {
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0) {
                 System.out.println(i);
@@ -8,7 +13,7 @@ public class ZadaniaDomowe {
         }
     }
 
-    public void odwrocenieTablicy() {
+    public static void odwrocenieTablicy() {
         int[] tab = new int[]{1, 3, 5, 7, 0};
 
         for (int i = 0; i < tab.length / 2; i++) {
@@ -20,9 +25,5 @@ public class ZadaniaDomowe {
         for (int i : tab) {
             System.out.println(i);
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }
