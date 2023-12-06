@@ -1,3 +1,5 @@
+package zadania;
+
 import java.util.Scanner;
 
 // Zapytaj użytkownika o wiek, w przypadku gdy ma mniej niż 18 lat
