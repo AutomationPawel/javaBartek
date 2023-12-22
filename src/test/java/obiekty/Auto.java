@@ -1,4 +1,4 @@
-package obiektu;
+package obiekty;
 
 public class Auto {
 

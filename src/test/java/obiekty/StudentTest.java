@@ -1,4 +1,4 @@
-package obiektu;
+package obiekty;
 
 public class StudentTest {
     public static void main(String[] args) {
