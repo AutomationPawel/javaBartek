@@ -1,7 +1,11 @@
-package obiektu;
+package obiekty;
 
 public class StudentTest {
     public static void main(String[] args) {
+
+        String uczelnia =Student.nazwaUczelni;
+        Student.infoUczelnia();
+
         Student pawel = new Student();
         pawel.imie = "Pawel";
         pawel.nazwisko  = "Laski";
