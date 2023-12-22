@@ -1,4 +1,4 @@
-package obiektu;
+package obiekty;
 
 public class Auto {
 
@@ -6,6 +6,17 @@ public class Auto {
     public String model;
     public int rok;
     public int przebieg;
+
+
+    public Auto(){
+
+    }
+    public Auto(String marka, String model, int rok, int przebieg){
+        this.marka=marka;
+        this.model=model;
+        this.rok=rok;
+        this.przebieg=przebieg;
+    }
 
     public void jedz(){
         System.out.println("Jedz!");
