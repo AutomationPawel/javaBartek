@@ -1,6 +1,13 @@
 package dziedziczenie;
 
 public class Person {
+
+    public Person(String name, int age) {
+        System.out.println("Jestem w konstruktorze person");
+        this.name = name;
+        this.age = age;
+    }
+
     public String name;
     public int age;
     public void eat(){
